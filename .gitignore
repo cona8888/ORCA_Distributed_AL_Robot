@@ -1,0 +1,37 @@
+# This companion repository deliberately excludes simulator source and binaries.
+src/
+inc/
+include/
+thirdparty/
+build/
+build_web/
+*.c
+*.cc
+*.cpp
+*.cxx
+*.h
+*.hpp
+*.hxx
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.bundle
+*.patch
+*.diff
+*.tar
+*.tar.gz
+*.tgz
+*.ttf
+*.otf
+
+# Keep new raw runs and local environments out of the companion repository.
+**/attempts/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.DS_Store
