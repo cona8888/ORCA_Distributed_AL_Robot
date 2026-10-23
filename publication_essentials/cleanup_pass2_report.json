@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-23",
+  "archives": [
+    {
+      "archive": "publication_essentials/raw_archives/older-comparison-calibration-jsonl.tar.zst",
+      "sha256": "79effe33457e19df988ffc42a8f603eeb6aea4a6e130efb274502e3655dc5ed5",
+      "source_bytes": 1016997012,
+      "archive_bytes": 83828440,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/older-visual-diagnostic-jsonl.tar.zst",
+      "sha256": "515ccee8dcbde70ed7ab18cf61d3c2430d041f4afd57671e19162fec0d217d42",
+      "source_bytes": 511294400,
+      "archive_bytes": 12356012,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    }
+  ],
+  "removed_worktrees": [
+    {
+      "path": "build/comparison/optimized-src",
+      "head": "91f5f05735ba249c657bb8789597635f0755d74f",
+      "branch": "refs/heads/codex/optimized-common",
+      "allocated_bytes": 45961216,
+      "restore": "git worktree add 'build/comparison/optimized-src' 'codex/optimized-common'"
+    },
+    {
+      "path": "build/comparison/physics-final/reference-src",
+      "head": "d1a9cd3bd3bf7ede17ed9f4014b84e64289a09af",
+      "branch": "refs/heads/codex/physics-reference-final",
+      "allocated_bytes": 1169235968,
+      "restore": "git worktree add 'build/comparison/physics-final/reference-src' 'codex/physics-reference-final'"
+    },
+    {
+      "path": "build/comparison/reference-src",
+      "head": "2e438b91bdcae3959be5e2a6367caef6c3982694",
+      "branch": "refs/heads/codex/reference-common",
+      "allocated_bytes": 45948928,
+      "restore": "git worktree add 'build/comparison/reference-src' 'codex/reference-common'"
+    },
+    {
+      "path": "build/comparison/trace-v3/optimized-src",
+      "head": "26c8c6f9b262a2114ac28203419cb03caf8b0d88",
+      "branch": "refs/heads/codex/optimized-trace-v3",
+      "allocated_bytes": 46002176,
+      "restore": "git worktree add 'build/comparison/trace-v3/optimized-src' 'codex/optimized-trace-v3'"
+    },
+    {
+      "path": "build/comparison/trace-v3/reference-src",
+      "head": "de0f60d1ad4b944c2b3264b8e3ccd348708b8b8a",
+      "branch": "refs/heads/codex/reference-trace-v3",
+      "allocated_bytes": 45989888,
+      "restore": "git worktree add 'build/comparison/trace-v3/reference-src' 'codex/reference-trace-v3'"
+    }
+  ],
+  "removed_bundle": {
+    "path": "results/publication/dancers-multimap-v1-second-host-capsule/Beyond-Dancers.bundle",
+    "bytes": 290777352,
+    "sha256": "525bde5f77123d66e6caf4958461eea04089d4592065c0472ab4db92a528ae84",
+    "heads": [
+      {
+        "sha": "a6025ce272475d835cbac17425f70f7633e9fb5e",
+        "ref": "refs/codex/turn-diffs/checkpoints/8a7e11d72d1929bfddf0325b9a0e0ec00144c8697a66a43c51d01a0d355c139d/dffd42a82536b8edea8ce636d33955e094f15c583e0d742e88406534c6fdf1c0/1787579623890/a8de7739-c1d7-4fed-94e9-f4ab72c709a7"
+      },
+      {
+        "sha": "91f5f05735ba249c657bb8789597635f0755d74f",
+        "ref": "refs/heads/codex/optimized-common"
+      },
+      {
+        "sha": "26c8c6f9b262a2114ac28203419cb03caf8b0d88",
+        "ref": "refs/heads/codex/optimized-trace-v3"
+      },
+      {
+        "sha": "5383edc2cd17e72f88c6629f0c3f25125a3bd5a5",
+        "ref": "refs/heads/codex/physics-optimized-final"
+      },
+      {
+        "sha": "d1a9cd3bd3bf7ede17ed9f4014b84e64289a09af",
+        "ref": "refs/heads/codex/physics-reference-final"
+      },
+      {
+        "sha": "2e438b91bdcae3959be5e2a6367caef6c3982694",
+        "ref": "refs/heads/codex/reference-common"
+      },
+      {
+        "sha": "de0f60d1ad4b944c2b3264b8e3ccd348708b8b8a",
+        "ref": "refs/heads/codex/reference-trace-v3"
+      },
+      {
+        "sha": "ffc800eda2bea33a4c78d5f8b3ca7eb7ed7f88b7",
+        "ref": "refs/heads/main"
+      },
+      {
+        "sha": "ffc800eda2bea33a4c78d5f8b3ca7eb7ed7f88b7",
+        "ref": "HEAD"
+      },
+      {
+        "sha": "2e438b91bdcae3959be5e2a6367caef6c3982694",
+        "ref": "worktrees/reference-src/HEAD"
+      },
+      {
+        "sha": "26c8c6f9b262a2114ac28203419cb03caf8b0d88",
+        "ref": "worktrees/optimized-src1/HEAD"
+      },
+      {
+        "sha": "d1a9cd3bd3bf7ede17ed9f4014b84e64289a09af",
+        "ref": "worktrees/reference-src2/HEAD"
+      },
+      {
+        "sha": "91f5f05735ba249c657bb8789597635f0755d74f",
+        "ref": "worktrees/optimized-src/HEAD"
+      },
+      {
+        "sha": "de0f60d1ad4b944c2b3264b8e3ccd348708b8b8a",
+        "ref": "worktrees/reference-src1/HEAD"
+      }
+    ],
+    "verification": "Every bundle tip and its complete object closure exists in retained local Git history",
+    "note": "Redundant transport package removed; its original byte identity is recorded, but is no longer a retained artifact. A replacement transfer bundle can be regenerated from the retained source revisions; it may have a new checksum.",
+    "preserved_local_refs": [
+      "refs/archive/storage-cleanup-20261023/bundle-tip/26c8c6f9b262a2114ac28203419cb03caf8b0d88",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/2e438b91bdcae3959be5e2a6367caef6c3982694",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/5383edc2cd17e72f88c6629f0c3f25125a3bd5a5",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/91f5f05735ba249c657bb8789597635f0755d74f",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/a6025ce272475d835cbac17425f70f7633e9fb5e",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/d1a9cd3bd3bf7ede17ed9f4014b84e64289a09af",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/de0f60d1ad4b944c2b3264b8e3ccd348708b8b8a",
+      "refs/archive/storage-cleanup-20261023/bundle-tip/ffc800eda2bea33a4c78d5f8b3ca7eb7ed7f88b7"
+    ]
+  },
+  "local_git_head": "51de52d24dd9eb8e60180228e4147aff58a40248",
+  "baseline_tracked_status": " M .gitignore\n",
+  "note": "Main source checkout and all Git branches/history retained. Only expanded older raw logs are removed from tracked working-tree paths; verified lossless copies are retained.",
+  "completed": true,
+  "reclaimed_bytes_estimate": 3076022488
+}

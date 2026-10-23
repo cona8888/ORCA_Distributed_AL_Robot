@@ -6,7 +6,11 @@ The seven figure packages remain in `figures/publication/python_packages_v1/`.
 
 ## Raw evidence
 
-`raw_archives/*.tar.zst` replace expanded, untracked `trace.ndjson` files.
+`raw_archives/*.tar.zst` replace expanded raw `trace.ndjson` files and older
+calibration/diagnostic JSONL streams. Pass 2 also archived tracked raw logs;
+Git may show their expanded working-tree paths as deleted. Their original
+content remains in both Git history and the verified archive. Source code
+was not removed from the main checkout.
 Every member was read back and checked against its original SHA-256 before
 the expanded original was removed. Matching `*.manifest.json` files list all
 original paths, byte counts, member hashes and archive hashes.
@@ -25,10 +29,16 @@ are local research evidence, not GitHub content.
 ## Rebuildable files
 
 `cleanup_report.json` records removed build output and local environments.
-Source-pinned Git worktrees inside `build/comparison/` are retained; their
-generated nested build directories are not. Environments and binaries must
-be rebuilt before running simulations again. `pixi.toml`, `pixi.lock`, build
-scripts, dependency provenance and pinned source revisions remain.
+`cleanup_pass2_report.json` records clean duplicate source worktrees removed
+after verifying their source-pinned branches were retained in local Git.
+It includes exact commands for recreating each source checkout. The redundant
+second-host transport bundle was removed only after verifying that every
+bundled source revision and its object closure existed in retained local Git;
+its tip revisions are pinned under archival refs. Its original byte checksum
+is recorded, but a regenerated transfer bundle may have a new checksum.
+Environments and binaries must be rebuilt before running simulations again.
+`pixi.toml`, `pixi.lock`, build scripts, dependency provenance and pinned source
+revisions remain.
 
 ## GitHub scope
 

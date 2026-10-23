@@ -26,8 +26,8 @@
   ],
   "batch_count": 24,
   "binary_count": 7,
-  "file_count": 351,
-  "total_bytes": 8905194,
+  "file_count": 352,
+  "total_bytes": 8912344,
   "files": [
     {
       "path": "docs/publication/DANCERS_ABLATION_STUDY_V1.md",
@@ -709,9 +709,9 @@
     },
     {
       "path": "publication_essentials/README.md",
-      "bytes": 1905,
-      "sha256": "d9d43ffac89559469d3c63cb386d89a2be5b85f3f93dd8491e9f8a3f21915017",
-      "git_blob_sha1": "885506a9ac54f3e0d0750bd6104b7b99b99e6e8e"
+      "bytes": 2581,
+      "sha256": "762fcbe28deb1bb064b8694b8d0e3c79ee5ad1d65339617909c63085829531d0",
+      "git_blob_sha1": "621c6b409cb66c556d162a271e9e1be4706d9154"
     },
     {
       "path": "scripts/comparison/activate_headless_task_calibration_analysis_v1.py",
@@ -1918,6 +1918,12 @@
       "bytes": 9800,
       "sha256": "47898cc602fe63356ea2e4f88de7ef16d0a693333ce5a230578c9505929007eb",
       "git_blob_sha1": "342f962484c583c7f72c46776a3abb713523a34e"
+    },
+    {
+      "path": "scripts/publication/compact_workspace_pass2.py",
+      "bytes": 6474,
+      "sha256": "b1e07bc20c36b2ec2084c5d63e83535059f2e87ffa08a141a37cea03e363e6d1",
+      "git_blob_sha1": "a6f01857b017b4e0b05b371fb7037f4f56620f7b"
     },
     {
       "path": "scripts/publication/companion_backup.py",
