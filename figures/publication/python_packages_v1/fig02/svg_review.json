@@ -1,0 +1,16 @@
+{
+  "file": "figures/publication/python_packages_v1/fig02/fig02.svg",
+  "errors": [],
+  "warnings": [],
+  "metrics": {
+    "width_mm": 183.0,
+    "height_mm": 150.0,
+    "text_elements": 15,
+    "minimum_font_pt": 14.000000012962968,
+    "minimum_stroke_pt": 0.7000000006481483,
+    "maximum_stroke_pt": 1.2000000011111114,
+    "hex_color_count": 5,
+    "filter_count": 0,
+    "external_images": []
+  }
+}

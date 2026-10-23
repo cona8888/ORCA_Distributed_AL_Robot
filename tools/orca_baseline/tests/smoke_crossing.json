@@ -1,0 +1,34 @@
+{
+  "decisions": {
+    "0": 0,
+    "1": 0
+  },
+  "metadata": {
+    "classification": "non-confirmatory wrapper smoke",
+    "scenario_kind": "dancers-orca-smoke-crossing-v1"
+  },
+  "num_robots": 2,
+  "seed_robots": [],
+  "waypoints": {
+    "0": [
+      [
+        -4.0,
+        0.0
+      ],
+      [
+        4.0,
+        0.0
+      ]
+    ],
+    "1": [
+      [
+        4.0,
+        0.0
+      ],
+      [
+        -4.0,
+        0.0
+      ]
+    ]
+  }
+}

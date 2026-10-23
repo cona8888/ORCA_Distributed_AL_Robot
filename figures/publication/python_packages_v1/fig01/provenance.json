@@ -1,0 +1,26 @@
+{
+  "figure": 1,
+  "sources": [
+    {
+      "path": "figures/publication/fig04_trajectories/fig04_trajectory_data.json",
+      "sha256": "18fbf6867dd0e4bc9b5307d64cbaaac22abdff9c47af1d30bc2e8136b6aa8923"
+    },
+    {
+      "path": "results/simulator-demo/v1/headless-scientific/epoch-5-validation/held-out-validation-raster-repair-session-001-analysis.json",
+      "sha256": "14caa13f43ca478e3bf1d05fbd499e5409de8ae8b6820c464f4e15c40bd07836"
+    },
+    {
+      "path": "comparison/environments/perfect_maze/validation/map.png",
+      "sha256": "cc7fd1d89638b27966873c88e79864be4bb1b164ce29a53b5361918591cd6e46"
+    },
+    {
+      "path": "results/comparison/demo/held-out-safe-grid-v1/perfect_maze-n6-seed11.html",
+      "sha256": "e88f6c0bb7af8fe337398cbf952964fff406c088cf5a7cec6d70391ad19868e2"
+    }
+  ],
+  "notes": [
+    "Simulated measured trajectories; execution-cycle diagram is conceptual.",
+    "Blue: optimized; dark dashed: reference. No computed path is shifted."
+  ],
+  "data_sha256": "85f2520ed27c0e778ee2111e3bf3430b78a57a5ec53a9d771c6ecf4cc2344771"
+}

@@ -1,0 +1,11 @@
+{
+  "figure": 7,
+  "claim": "Measured medians support a preliminary computation-budget calculation.",
+  "scientific": "Checked plotted extracts against authenticated source identities; conceptual objects and derived relations identified in caption.",
+  "narrative": "Panel order and emphasis reviewed in exported PNG at final aspect ratio.",
+  "reduction": "14 pt minimum at 183 mm saved width; no visible figure title; labels inspected for overlap and clipping.",
+  "accessibility": "Reference/optimized distinction has line style or fill redundancy; count/metric comparisons use marker or line-style redundancy. Unity/zero/budget lines are differentiated by dash style.",
+  "technical": "All scripts rendered successfully; strict SVG audit has no errors or warnings. Representative SVG and PDF exports inspected.",
+  "status": "Prepared for author visual review",
+  "user_style_override": "14 pt minimum replaces the smaller generic Nature figure-font guidance; height varies to accommodate labels."
+}

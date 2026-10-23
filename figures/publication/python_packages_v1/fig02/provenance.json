@@ -1,0 +1,17 @@
+{
+  "figure": 2,
+  "sources": [
+    {
+      "path": "figures/publication/fig01_overview/fig01_semantic_spec.json",
+      "sha256": "addcd50848344a9a7c9d68aba018543dd5858fd981b1b28adf4a00b319fd0073"
+    },
+    {
+      "path": "docs/publication/DANCERS_FIGURE1_VISUAL_THESIS_CONTRACT_V1.md",
+      "sha256": "ff9d351cc5f39cb267d13d9b36edfbb9685d42f049ec0be5e472e06072906b7f"
+    }
+  ],
+  "notes": [
+    "Original conceptual schematic. Node topology illustrates notation only."
+  ],
+  "data_sha256": "4faada98bd948b39500ee5128c661a5b62dd67a6c5e61c5431b1cb20c646caca"
+}

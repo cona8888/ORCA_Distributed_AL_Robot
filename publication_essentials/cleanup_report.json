@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-23",
+  "root": "/Users/w.cha@bham.ac.uk/Documents/Beyond Dancers",
+  "local_git_head": "51de52d24dd9eb8e60180228e4147aff58a40248",
+  "archives": [
+    {
+      "archive": "publication_essentials/raw_archives/publication-dancers-multimap-v1-host-1.tar.zst",
+      "sha256": "5138d815824fcb5e66019c216bb0d1a38486fdb6470357168cd1cf4ac0703daa",
+      "source_bytes": 3523804050,
+      "archive_bytes": 32054834,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/publication-dancers-orca-v1-session-001.tar.zst",
+      "sha256": "1c226505c72fca7be98dc416f3980681b46c4195cf13d3398c68329d94070ea0",
+      "source_bytes": 895163906,
+      "archive_bytes": 29536656,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/publication-dancers-orca-v1-session-002.tar.zst",
+      "sha256": "06326c59e309b8feeb31bbcfce595024ef6e10efbd5f0195da403954b21e5ca9",
+      "source_bytes": 895163906,
+      "archive_bytes": 29536695,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/simulator-demo-v1-headless-scientific-diagnostics.tar.zst",
+      "sha256": "7f5131b0b9db8fcdbcd298bfbbb8ec1cdba7e63d99a4cf3bb4155ded0a4c7864",
+      "source_bytes": 2587429610,
+      "archive_bytes": 44231240,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/simulator-demo-v1-headless-scientific-epoch-1.tar.zst",
+      "sha256": "622dd9804dda1887211e88cf0ea1a5d2b47f18fd9c3cb6c45904c7040479b56d",
+      "source_bytes": 9930959352,
+      "archive_bytes": 254770364,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/simulator-demo-v1-headless-scientific-epoch-2-task-calibration.tar.zst",
+      "sha256": "7db01530fe565d8dcaabadad89b09b938fd1c33e25f8885db05e6dda7cd95861",
+      "source_bytes": 6414259304,
+      "archive_bytes": 70639354,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/simulator-demo-v1-headless-scientific-epoch-3-fractal-low-task-calibration.tar.zst",
+      "sha256": "26b6388961a07ae943dafa168d73aa5df68ba349ec3fd0a3d5a464abfaf81769",
+      "source_bytes": 690154280,
+      "archive_bytes": 4408699,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/simulator-demo-v1-headless-scientific-epoch-5-validation.tar.zst",
+      "sha256": "76452a9dac3f6a406c8b609d1b1fd7817e2555ae531453326f8ab4a0a6cbed06",
+      "source_bytes": 13910958180,
+      "archive_bytes": 104277333,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    },
+    {
+      "archive": "publication_essentials/raw_archives/simulator-demo-v1-headless-scientific-epoch-5-validation-infrastructure-negative-attempt-4.tar.zst",
+      "sha256": "be35fa6b29b2cc111d2ac5d452c1dd7234aa004b292a24daeb0ef567137f3fa7",
+      "source_bytes": 0,
+      "archive_bytes": 22853,
+      "verification": "All member SHA-256 values and zstd checksum passed"
+    }
+  ],
+  "deleted_rebuildable": [
+    {
+      "path": "build/physics-bridge-ubsan",
+      "bytes": 618665852
+    },
+    {
+      "path": "build/physics-bridge-off",
+      "bytes": 33158591
+    },
+    {
+      "path": "build/publication",
+      "bytes": 499041302
+    },
+    {
+      "path": "build/CMakeFiles",
+      "bytes": 502014
+    },
+    {
+      "path": "build/pixi",
+      "bytes": 390533997
+    },
+    {
+      "path": "build/orca-wrapper-publication-v1-pass-2",
+      "bytes": 1222887
+    },
+    {
+      "path": "build/external-baselines",
+      "bytes": 28354734
+    },
+    {
+      "path": "build/CMakeCache.txt",
+      "bytes": 17170
+    },
+    {
+      "path": "build/orca-wrapper-smoke",
+      "bytes": 3246078
+    },
+    {
+      "path": "build/orca-wrapper-sanitize",
+      "bytes": 17269517
+    },
+    {
+      "path": "build/physics-bridge-sanitize",
+      "bytes": 700507187
+    },
+    {
+      "path": "build/orca-wrapper-publication-v1-pass-1",
+      "bytes": 1222884
+    },
+    {
+      "path": "build/orca-wrapper-binding-probe",
+      "bytes": 1744710
+    },
+    {
+      "path": "build/comparison/visual-smoke",
+      "bytes": 100599
+    },
+    {
+      "path": "build/comparison/.DS_Store",
+      "bytes": 6148
+    },
+    {
+      "path": "build/comparison/fidelity-probe",
+      "bytes": 1767810
+    },
+    {
+      "path": "build/comparison/timing-smoke",
+      "bytes": 11044927
+    },
+    {
+      "path": "build/comparison/headless-runtime-v1",
+      "bytes": 15360202
+    },
+    {
+      "path": "build/comparison/build",
+      "bytes": 79001416
+    },
+    {
+      "path": "build/comparison/reference-src/build",
+      "bytes": 0
+    },
+    {
+      "path": "build/comparison/optimized-src/build",
+      "bytes": 0
+    },
+    {
+      "path": "build/comparison/trace-v3/deps",
+      "bytes": 353845668
+    },
+    {
+      "path": "build/comparison/trace-v3/build",
+      "bytes": 77267451
+    },
+    {
+      "path": ".pixi",
+      "bytes": 1698417832
+    },
+    {
+      "path": ".local",
+      "bytes": 62930304
+    }
+  ],
+  "note": "No scientific evidence discarded; expanded untracked traces are replaced by SHA-256-verified lossless archives. All source worktrees, tracked results, compact analyses, figures, configs, protocols and local Git history remain.",
+  "completed": true,
+  "reclaimed_logical_bytes": 42873643840
+}

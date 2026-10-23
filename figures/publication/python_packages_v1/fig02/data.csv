@@ -1,0 +1,6 @@
+optimization,stage,meaning,x,y,target_x,target_y,kind
+1,SENSING,Contiguous KD-tree positions and robot IDs,0.07,0.84,0.18,0.82,schematic_layout
+2,SENSING,Exact unchanged-sensing topology reuse,0.36,0.84,0.34,0.72,schematic_layout
+3,GBP,Reduced GBP copies/redundant solve and reused snapshots,0.07,0.47,0.13,0.34,schematic_layout
+4,GBP,Scalar R1 information operations and identity-transport bypass,0.36,0.47,0.34,0.24,schematic_layout
+5,GBP,Single-owner movement of externally staged messages,0.62,0.11,0.54,0.18,schematic_layout

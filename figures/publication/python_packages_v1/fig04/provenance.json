@@ -1,0 +1,17 @@
+{
+  "figure": 4,
+  "sources": [
+    {
+      "path": "figures/publication/fig03_multimap/fig03_plot_data.csv",
+      "sha256": "8433a49dd07700083bb4cd1f4b4248a23cf74e8fd557067e1484a8af8ac53ed4"
+    },
+    {
+      "path": "results/publication/dancers-multimap-v1-host-1/analysis.json",
+      "sha256": "6c26d278c15abde2cd604fc6ac59bc4af8bd5bbecdbdc87bc3438e57cb05d7fd"
+    }
+  ],
+  "notes": [
+    "Point/interval definitions and row codes are explained only in the caption."
+  ],
+  "data_sha256": "8433a49dd07700083bb4cd1f4b4248a23cf74e8fd557067e1484a8af8ac53ed4"
+}

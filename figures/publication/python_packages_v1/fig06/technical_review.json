@@ -1,0 +1,12 @@
+{
+  "figure": "fig06",
+  "width_mm": 183,
+  "height_mm": 195,
+  "font": "Arial",
+  "minimum_text_pt": 14,
+  "visible_title": false,
+  "text_outside_canvas": [],
+  "svg_live_text": true,
+  "data_sha256": "4198e7a9a65563a8c3ee1e6e3ebfb0a52be9cc1d188ba8255589d89c8b670d23",
+  "status": "technical checks passed; visual review recorded separately"
+}

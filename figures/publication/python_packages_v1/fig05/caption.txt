@@ -1,0 +1,15 @@
+Figure 5 | What output preservation means for robot motion.
+(a–e) Measured coincident trajectories for open (N=8), perfect-maze (N=6),
+fractal-low (N=2), fractal-medium (N=2), and fractal-high (N=4) examples, all
+at seed 11. Each complete arena is 100 m × 100 m. Solid blue paths denote
+optimized DANCeRS and dashed dark paths reference DANCeRS; coordinates are
+identical and never offset. Open markers show initial positions; filled discs
+and heading ticks show final poses. The native coordinate frame has y increasing
+downward. (f) A 12.5 m × 12.5 m crop of the inherited fractal-low, four-robot,
+seed-17 contact case. Red discs show robots 0 and 3 at the continuous swept-
+geometry minimum: clearance −0.277 m at 1.466 s; first contact occurs at
+1.164 s. Both builds reproduce the event exactly. Across the separate held-out
+analysis, 600/600 paired semantic digests match and 198/200 position scenes
+pass registered task-validity checks. The retained contact example comes from
+the task-calibration replay included in the authenticated trajectory extract;
+the population counts come from the held-out analysis.

@@ -1,0 +1,14 @@
+Figure 3 | How the five changes reduce execution time.
+(a,b) Conceptual fragments illustrate unchanged topology reuse and reduced
+copying/repeated operations; their geometry is illustrative. (c) Complete-
+process wall time at cumulative stages S0–S5 for 500 and 1,000 robots. Stage
+values are geometric means of seed medians from three timing repetitions per
+stage and ten complete seeds; the vertical axis is logarithmic. Blue squares
+and solid lines denote 500 robots; purple circles and dashed lines denote
+1,000 robots. S0 is reference; S1–S5 add the five changes in Figure 2 order.
+(d) Paired cumulative S0/S5 wall and CPU speedups with registered deterministic
+95% cluster-bootstrap intervals. Blue squares denote wall time; purple open
+circles denote CPU time. Wall speedups are 8.4454× (8.2915–8.6021) and 14.7229×
+(14.3003–15.1753). (e) Geometric-mean peak RSS across cumulative stages,
+approximately 44 and 55 MiB. This historical-order experiment measures
+cumulative contributions, not independent factorial effects.

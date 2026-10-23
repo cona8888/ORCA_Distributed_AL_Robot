@@ -1,0 +1,18 @@
+{
+  "figure": 7,
+  "sources": [
+    {
+      "path": "results/publication/dancers-multimap-v1-host-1/analysis.json",
+      "sha256": "6c26d278c15abde2cd604fc6ac59bc4af8bd5bbecdbdc87bc3438e57cb05d7fd"
+    },
+    {
+      "path": "results/publication/dancers-multimap-v1-host-1/schedule.json",
+      "sha256": "cfeef02496c0fc6d7bf78f69e8fe94960d25996b0c677c93b3ce2ba59002a4d4"
+    }
+  ],
+  "notes": [
+    "The 0.400 s requirement and feasibility region are analytical illustrations.",
+    "Measured times, memory, and validity come from one existing registered scene."
+  ],
+  "data_sha256": "96a3425da2f613b734ae5cc1d9a22d20f6bb2d9fdef6158b524f125e1bed2e28"
+}

@@ -1,0 +1,18 @@
+{
+  "figure": 3,
+  "sources": [
+    {
+      "path": "figures/publication/fig02_ablation/fig02_plot_data.csv",
+      "sha256": "ad4a951304fd9acd0e6c9705e1c8d9238e39910b1703045332011cf5a912b127"
+    },
+    {
+      "path": "results/publication/dancers-ablation-v1-repair-2/analysis.json",
+      "sha256": "539d7e553bef94c069f7d0b94ccea197e6bedd9fc0585b3344d3704db63ef074"
+    }
+  ],
+  "notes": [
+    "Stage geometry in panels a,b is illustrative; panels c\u2013e use registered data.",
+    "Sparse workload ratios must not be pooled with multi-map results."
+  ],
+  "data_sha256": "ad4a951304fd9acd0e6c9705e1c8d9238e39910b1703045332011cf5a912b127"
+}

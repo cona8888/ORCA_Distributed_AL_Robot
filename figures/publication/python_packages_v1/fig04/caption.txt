@@ -1,0 +1,14 @@
+Figure 4 | Performance improvement across different environments.
+(a,b) Reference/optimized complete-process wall-time and total-CPU ratios for
+ten registered family-by-robot-count cells. Squares show point estimates and
+horizontal whiskers show registered 95% bootstrap intervals. (c) Optimized/
+reference peak-RSS ratios. The dashed line is unity; the red dotted line is the
+registered 1.05 RSS-ratio ceiling. Row codes are O: one fixed open map; M:
+perfect maze; L, D, H: fractal low, medium, high. The number following each
+code is robot count. Each cell contains 20 scenes. Stochastic-map intervals
+resample map blocks and missions; open-map intervals resample missions within
+one fixed map. Across 200 scenes, all semantic and position pairs match exactly,
+199 scenes pass task-validity checks, and one inherited contact is retained.
+All 2,082 processes completed, including 82 warm-ups and 2,000 measured runs.
+Wall speedups span 1.2128–1.3398× and CPU speedups 1.2397–1.3560× on host 1.
+Memory remains approximately unchanged; independent host replication is pending.

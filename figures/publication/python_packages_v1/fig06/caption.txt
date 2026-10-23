@@ -1,0 +1,14 @@
+Figure 6 | Behavioural trade-offs between DANCeRS and ORCA.
+Paired native-model DANCeRS-minus-ORCA contrasts across 20 open missions for
+(a) all-agent completion time, (b) mean path length, (c) mean velocity total
+variation, (d) mean acceleration RMS, (e) mean jerk RMS, and (f) minimum pair
+clearance. Squares show registered estimates; whiskers show 95% intervals;
+the dashed line indicates zero difference. Every panel retains its own metric
+unit and horizontal scale. Both methods complete all agents in these open
+missions. DANCeRS has longer paths and later completion, lower acceleration
+and jerk RMS, and higher velocity variation. The clearance interval crosses
+zero. All 12 registered behavioural metrics and the three paired DANCeRS
+implementation-resource ratios are retained in data.csv; six nonredundant
+behavioural metrics are plotted. Results depend on the fixed inputs, registered
+parameter mapping, native motion models, and host. Circle tasks and cadence
+sensitivity belong to Extended Data.

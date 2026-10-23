@@ -1,0 +1,12 @@
+Figure 2 | Where computational work is reduced in the DANCeRS architecture.
+(a) A conceptual two-robot diagram shows planning and global-consensus graph
+fragments, each with open circular variables and square factors. Graph edges
+are schematic and do not represent sampled communication topology. Dashed
+purple arrows denote information exchange. Numbered markers identify (1)
+contiguous KD-tree positions and identifiers, (2) reuse of exactly unchanged
+neighbour topology, (3) GBP snapshot/copy/solve reuse, (4) scalar R1 information
+operations with identity-transport bypass, and (5) single-owner movement of
+externally staged messages. (b) The retained sensing, GBP, and motion cycle.
+The implementation preserves the GBP schedule, internal sweep count, update
+order, convergence settings, and reported planner metrics. CSV coordinates are
+diagram-layout data, not experimental measurements.

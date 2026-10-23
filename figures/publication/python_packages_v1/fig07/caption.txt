@@ -1,0 +1,15 @@
+Figure 7 | An engineering budget guide with a worked example.
+(a) An algebraic median-time budget screen plots measured speedup S =
+T_ref/T_opt against required speedup S_req = T_ref/T_budget. The diagonal is
+S = S_req; the pale region satisfies S ≥ S_req. The square locates the
+registered perfect-maze, six-robot, map-05, mission-39 example. (b) Complete-
+process median wall times, 0.449964 s for reference and 0.342231 s for optimized
+DANCeRS, with an illustrative 0.400 s budget shown by the red dashed line.
+The blue arrow spans the optimized median headroom of 0.057769 s (14.44% of
+the budget). Execution time falls by 23.94%, and speedup is 1.3148×. Exact
+registered outputs match over 200 frames and task-validity checks pass.
+Median peak RSS is 40.484 versus 40.563 MiB. Each resource summary uses three
+timing runs per build on host 1. The chart supports preliminary computation-
+budget screening; median values and cell confidence intervals do not establish
+an individual-run deadline probability or worst-case bound. A memory budget
+and task-specific validation are additional deployment requirements.

@@ -1,0 +1,100 @@
+Figure 1 | The same robot behaviour with less computation.
+(a) Coincident measured reference and optimized robot paths in the authenticated
+perfect-maze, six-robot, seed-11 held-out scene. Solid blue and dashed dark lines
+use the same coordinates, with no visual offset. Open markers show initial
+positions; filled robot discs and heading ticks show final poses. The 100 m ×
+100 m arena uses the simulator coordinate frame, with y increasing downward.
+(b) Both builds retain the sensing, GBP, and motion sequence. The schematic
+introduces the unchanged execution order; implementation changes are located
+in Figure 2. Trajectory CSV rows contain a compact initial/post-update sample
+of 101 poses per robot from a 200-frame exact paired replay.
+
+Figure 2 | Where computational work is reduced in the DANCeRS architecture.
+(a) A conceptual two-robot diagram shows planning and global-consensus graph
+fragments, each with open circular variables and square factors. Graph edges
+are schematic and do not represent sampled communication topology. Dashed
+purple arrows denote information exchange. Numbered markers identify (1)
+contiguous KD-tree positions and identifiers, (2) reuse of exactly unchanged
+neighbour topology, (3) GBP snapshot/copy/solve reuse, (4) scalar R1 information
+operations with identity-transport bypass, and (5) single-owner movement of
+externally staged messages. (b) The retained sensing, GBP, and motion cycle.
+The implementation preserves the GBP schedule, internal sweep count, update
+order, convergence settings, and reported planner metrics. CSV coordinates are
+diagram-layout data, not experimental measurements.
+
+Figure 3 | How the five changes reduce execution time.
+(a,b) Conceptual fragments illustrate unchanged topology reuse and reduced
+copying/repeated operations; their geometry is illustrative. (c) Complete-
+process wall time at cumulative stages S0–S5 for 500 and 1,000 robots. Stage
+values are geometric means of seed medians from three timing repetitions per
+stage and ten complete seeds; the vertical axis is logarithmic. Blue squares
+and solid lines denote 500 robots; purple circles and dashed lines denote
+1,000 robots. S0 is reference; S1–S5 add the five changes in Figure 2 order.
+(d) Paired cumulative S0/S5 wall and CPU speedups with registered deterministic
+95% cluster-bootstrap intervals. Blue squares denote wall time; purple open
+circles denote CPU time. Wall speedups are 8.4454× (8.2915–8.6021) and 14.7229×
+(14.3003–15.1753). (e) Geometric-mean peak RSS across cumulative stages,
+approximately 44 and 55 MiB. This historical-order experiment measures
+cumulative contributions, not independent factorial effects.
+
+Figure 4 | Performance improvement across different environments.
+(a,b) Reference/optimized complete-process wall-time and total-CPU ratios for
+ten registered family-by-robot-count cells. Squares show point estimates and
+horizontal whiskers show registered 95% bootstrap intervals. (c) Optimized/
+reference peak-RSS ratios. The dashed line is unity; the red dotted line is the
+registered 1.05 RSS-ratio ceiling. Row codes are O: one fixed open map; M:
+perfect maze; L, D, H: fractal low, medium, high. The number following each
+code is robot count. Each cell contains 20 scenes. Stochastic-map intervals
+resample map blocks and missions; open-map intervals resample missions within
+one fixed map. Across 200 scenes, all semantic and position pairs match exactly,
+199 scenes pass task-validity checks, and one inherited contact is retained.
+All 2,082 processes completed, including 82 warm-ups and 2,000 measured runs.
+Wall speedups span 1.2128–1.3398× and CPU speedups 1.2397–1.3560× on host 1.
+Memory remains approximately unchanged; independent host replication is pending.
+
+Figure 5 | What output preservation means for robot motion.
+(a–e) Measured coincident trajectories for open (N=8), perfect-maze (N=6),
+fractal-low (N=2), fractal-medium (N=2), and fractal-high (N=4) examples, all
+at seed 11. Each complete arena is 100 m × 100 m. Solid blue paths denote
+optimized DANCeRS and dashed dark paths reference DANCeRS; coordinates are
+identical and never offset. Open markers show initial positions; filled discs
+and heading ticks show final poses. The native coordinate frame has y increasing
+downward. (f) A 12.5 m × 12.5 m crop of the inherited fractal-low, four-robot,
+seed-17 contact case. Red discs show robots 0 and 3 at the continuous swept-
+geometry minimum: clearance −0.277 m at 1.466 s; first contact occurs at
+1.164 s. Both builds reproduce the event exactly. Across the separate held-out
+analysis, 600/600 paired semantic digests match and 198/200 position scenes
+pass registered task-validity checks. The retained contact example comes from
+the task-calibration replay included in the authenticated trajectory extract;
+the population counts come from the held-out analysis.
+
+Figure 6 | Behavioural trade-offs between DANCeRS and ORCA.
+Paired native-model DANCeRS-minus-ORCA contrasts across 20 open missions for
+(a) all-agent completion time, (b) mean path length, (c) mean velocity total
+variation, (d) mean acceleration RMS, (e) mean jerk RMS, and (f) minimum pair
+clearance. Squares show registered estimates; whiskers show 95% intervals;
+the dashed line indicates zero difference. Every panel retains its own metric
+unit and horizontal scale. Both methods complete all agents in these open
+missions. DANCeRS has longer paths and later completion, lower acceleration
+and jerk RMS, and higher velocity variation. The clearance interval crosses
+zero. All 12 registered behavioural metrics and the three paired DANCeRS
+implementation-resource ratios are retained in data.csv; six nonredundant
+behavioural metrics are plotted. Results depend on the fixed inputs, registered
+parameter mapping, native motion models, and host. Circle tasks and cadence
+sensitivity belong to Extended Data.
+
+Figure 7 | An engineering budget guide with a worked example.
+(a) An algebraic median-time budget screen plots measured speedup S =
+T_ref/T_opt against required speedup S_req = T_ref/T_budget. The diagonal is
+S = S_req; the pale region satisfies S ≥ S_req. The square locates the
+registered perfect-maze, six-robot, map-05, mission-39 example. (b) Complete-
+process median wall times, 0.449964 s for reference and 0.342231 s for optimized
+DANCeRS, with an illustrative 0.400 s budget shown by the red dashed line.
+The blue arrow spans the optimized median headroom of 0.057769 s (14.44% of
+the budget). Execution time falls by 23.94%, and speedup is 1.3148×. Exact
+registered outputs match over 200 frames and task-validity checks pass.
+Median peak RSS is 40.484 versus 40.563 MiB. Each resource summary uses three
+timing runs per build on host 1. The chart supports preliminary computation-
+budget screening; median values and cell confidence intervals do not establish
+an individual-run deadline probability or worst-case bound. A memory budget
+and task-specific validation are additional deployment requirements.

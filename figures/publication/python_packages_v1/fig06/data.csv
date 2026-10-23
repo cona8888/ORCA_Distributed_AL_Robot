@@ -1,0 +1,16 @@
+kind,key,label,unit,estimate,lower_95,upper_95,direction
+behaviour,all_agents_completion,All-agent completion,fraction,0,0,0,DANCeRS minus ORCA
+behaviour,agent_completion_fraction,Agent completion,fraction,0,0,0,DANCeRS minus ORCA
+behaviour,all_agents_makespan_s,All-agent makespan,s,0.6772601331800374,0.6610351319203781,0.7005522980486658,DANCeRS minus ORCA
+behaviour,mean_restricted_agent_completion_time_s,Mean restricted completion time,s,0.6461759155187405,0.64001080894623,0.6533734056578603,DANCeRS minus ORCA
+behaviour,mean_path_length_m,Mean path length,m,0.724980597602202,0.7122925094507669,0.7401633715104317,DANCeRS minus ORCA
+behaviour,mean_path_excess_m,Mean path excess,m,0.7249805976022018,0.7122266791535614,0.7402470180296701,DANCeRS minus ORCA
+behaviour,minimum_pair_clearance_m,Minimum pair clearance,m,0.029863212415374235,-0.10335849486071821,0.15983878638819887,DANCeRS minus ORCA
+behaviour,pair_contact_episodes,Pair-contact episodes,count,-0.05,-0.15000000000000002,0,DANCeRS minus ORCA
+behaviour,pair_contact_exposure_pair_seconds,Pair-contact exposure,pair-s,-1.3655531163592194e-05,-4.0966593490776584e-05,0,DANCeRS minus ORCA
+behaviour,mean_velocity_total_variation_mps,Velocity total variation,m s−1,0.235113140154272,0.22184604608854303,0.25296421442151806,DANCeRS minus ORCA
+behaviour,mean_acceleration_rms_mps2,Acceleration RMS,m s−2,-1.9878296078752349,-1.9961648527831721,-1.9771179944498527,DANCeRS minus ORCA
+behaviour,mean_jerk_rms_mps3,Jerk RMS,m s−3,-33.011820948518114,-33.187648664603074,-32.75612673541438,DANCeRS minus ORCA
+implementation_resource,dancers_wall_speedup,,ratio,1.3200080338765554,1.312480699067667,1.327878518625147,reference / optimized
+implementation_resource,dancers_cpu_speedup,,ratio,1.3456815601916559,1.3410110984681765,1.350398331712892,reference / optimized
+implementation_resource,dancers_rss_optimized_over_reference,,ratio,1.0020944164718104,1.001533156242416,1.0026153635127628,optimized / reference

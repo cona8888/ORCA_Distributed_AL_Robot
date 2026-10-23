@@ -1,0 +1,2 @@
+kind,scene_id,reference_time_s,optimized_time_s,budget_s,measured_speedup,required_speedup,time_saved_s,time_saved_fraction,headroom_s,headroom_fraction,reference_rss_mib,optimized_rss_mib,budget_basis,resource_statistic
+worked_case,perfect_maze-map-05-m39-n6,0.449964,0.34223075,0.4,1.3147971069227415,1.1249099999999999,0.10773325,0.23942637633232888,0.05776925000000005,0.1444231250000001,40.484375,40.5625,"illustrative requirement, not measured",median of three timing runs per build

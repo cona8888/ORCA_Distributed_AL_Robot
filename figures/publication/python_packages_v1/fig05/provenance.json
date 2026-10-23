@@ -1,0 +1,30 @@
+{
+  "figure": 5,
+  "sources": [
+    {
+      "path": "figures/publication/fig04_trajectories/fig04_trajectory_data.json",
+      "sha256": "18fbf6867dd0e4bc9b5307d64cbaaac22abdff9c47af1d30bc2e8136b6aa8923"
+    },
+    {
+      "path": "results/simulator-demo/v1/headless-scientific/epoch-5-validation/held-out-validation-raster-repair-session-001-analysis.json",
+      "sha256": "14caa13f43ca478e3bf1d05fbd499e5409de8ae8b6820c464f4e15c40bd07836"
+    },
+    {
+      "path": "figures/publication/fig04_trajectories/fig04_contact_map_crop.png",
+      "sha256": "b0f6471e1de27e6f3f01cecca9e1224cb6f1bbcc6563ce6ccd9fe631aecef95a"
+    },
+    {
+      "path": "results/simulator-demo/v1/headless-scientific/epoch-5-validation/held-out-validation-raster-repair-session-001/attempts/calibration/positions_replay/fractal_low/n-4/seed-17/rep-1/0-reference/trace.ndjson",
+      "sha256": "4f341c449c0aed5ba8c92e93a04af7c52037b1df1d72c60bc0c0a935f26aee01"
+    },
+    {
+      "path": "results/simulator-demo/v1/headless-scientific/epoch-5-validation/held-out-validation-raster-repair-session-001/attempts/calibration/positions_replay/fractal_low/n-4/seed-17/rep-1/1-optimized/trace.ndjson",
+      "sha256": "c0f1eba7f10cfc979d21d386c2bbfbfd23204e3c3a2302a7750d57a8980b7101"
+    }
+  ],
+  "notes": [
+    "CSV holds 101 compact poses per plotted robot and exact continuous-contact poses.",
+    "Native raster maps are copied without resampling or scientific alteration."
+  ],
+  "data_sha256": "2f7707e7ea42fd762833f3625ce737b86cba3dd2f133cdcb3c3d518a2582cc0d"
+}

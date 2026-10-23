@@ -1,0 +1,10 @@
+Figure 1 | The same robot behaviour with less computation.
+(a) Coincident measured reference and optimized robot paths in the authenticated
+perfect-maze, six-robot, seed-11 held-out scene. Solid blue and dashed dark lines
+use the same coordinates, with no visual offset. Open markers show initial
+positions; filled robot discs and heading ticks show final poses. The 100 m ×
+100 m arena uses the simulator coordinate frame, with y increasing downward.
+(b) Both builds retain the sensing, GBP, and motion sequence. The schematic
+introduces the unchanged execution order; implementation changes are located
+in Figure 2. Trajectory CSV rows contain a compact initial/post-update sample
+of 101 poses per robot from a 200-frame exact paired replay.

@@ -1,0 +1,38 @@
+{
+  "figure": 6,
+  "sources": [
+    {
+      "path": "figures/publication/fig05_orca/fig05_plot_data.json",
+      "sha256": "2a47648b212760a64e34b07667aa61b40767cd0f3c9d95fe992421e163eea552"
+    },
+    {
+      "path": "comparison/publication/dancers-orca-v1-session-002-outcome-packet/manifest.json",
+      "sha256": "3e8b137f9aef3a6f672f79ade6268dad967d57f2f402d656bdb702933babe0b3"
+    },
+    {
+      "path": "comparison/publication/dancers-orca-v1-session-002-outcome-packet/analysis.json",
+      "sha256": "ee7a0f445b5ef0efa55ccc0b06cd2a7a12afdf294dd0d4b8b22dd70cc134be51"
+    },
+    {
+      "path": "comparison/publication/dancers-orca-v1-session-002-outcome-packet/outcome.json",
+      "sha256": "6bf2d229f5f9fbbcc8259f7efd30f12be14c0c8555d6216d633a7a75dd5c0015"
+    },
+    {
+      "path": "comparison/publication/dancers-orca-v1-session-002-execution-capsule/execution_plan.json",
+      "sha256": "8cc08dac76f74898b4c2593fabe99cb3d5ed797330ca37aceaf693538ba6230f"
+    },
+    {
+      "path": "docs/publication/task4_external_baseline/SESSION_002_MANUSCRIPT_RESULTS_V1.md",
+      "sha256": "75087149f9565998b60515ed4f2d096607bb5415656c7462684772c7115b0e54"
+    },
+    {
+      "path": "docs/publication/task4_external_baseline/SESSION_001_EXECUTION_AUDIT.md",
+      "sha256": "cc6936e3520c14cb9e3a68c00ca407872b05696dbce458ff73a3e6a54e97831b"
+    }
+  ],
+  "notes": [
+    "Each behavioural contrast retains a native unit; scales are independent.",
+    "All registered metrics are supplied in CSV, including those not drawn."
+  ],
+  "data_sha256": "4198e7a9a65563a8c3ee1e6e3ebfb0a52be9cc1d188ba8255589d89c8b670d23"
+}
