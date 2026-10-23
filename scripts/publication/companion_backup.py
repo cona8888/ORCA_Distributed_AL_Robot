@@ -56,7 +56,8 @@ def batches(files):
     for p in files:
         if p.suffix == '.png':
             continue
-        content = p.read_text(encoding='utf-8')
+        # Preserve CRLF in CSV files so provenance byte hashes remain exact.
+        content = p.read_bytes().decode('utf-8')
         row = dict(path=remote_path(p), mode='100755' if p.stat().st_mode & 0o111
                    else '100644', type='blob', content=content)
         n = len(json.dumps(row))

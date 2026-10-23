@@ -27,7 +27,7 @@
   "batch_count": 24,
   "binary_count": 7,
   "file_count": 351,
-  "total_bytes": 8905116,
+  "total_bytes": 8905194,
   "files": [
     {
       "path": "docs/publication/DANCERS_ABLATION_STUDY_V1.md",
@@ -1921,9 +1921,9 @@
     },
     {
       "path": "scripts/publication/companion_backup.py",
-      "bytes": 4673,
-      "sha256": "d1e88b36a6f8ffe79e7bc596124d74de9e2f172f64d53616f2cd55d73215827c",
-      "git_blob_sha1": "4ab4c5f359659ce0090f2946f40270fe626d7051"
+      "bytes": 4751,
+      "sha256": "04459ca6d22ac5b87145ab9289d82eaee097a79d7bd32ecc394cbb109d827967",
+      "git_blob_sha1": "441e9d3c22b3e38e5fa90f88f781feaead662559"
     },
     {
       "path": "scripts/replication/__init__.py",
